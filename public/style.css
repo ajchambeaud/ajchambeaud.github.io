@@ -23,7 +23,9 @@ a {
 }
 
 section {
-  min-height: 50%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
 }
 
 section:not(:last-child) {
@@ -31,7 +33,6 @@ section:not(:last-child) {
 }
 
 section:not(#top) {
-  padding: 150px 100px;
   text-align: center;
 }
 
